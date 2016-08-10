@@ -28,6 +28,11 @@ body {
   font-size: 18px;
   font-family:Arial, sans-serif;
 }
+
+.list {
+    font-size: 14px;
+}
+
 .margin_left_1 {
   margin-left: 40px;
   font-size: 14px;
