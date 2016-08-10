@@ -29,7 +29,7 @@ body {
   font-family:Arial, sans-serif;
 }
 .margin_left_1 {
-  margin-left: 6%;
+  margin-left: 40px;
   font-size: 14px;
 }
 
@@ -40,14 +40,14 @@ body {
 
 .link {
   color: #2964d5;
-  margin-left: 6%;
+  margin-left: 40px;
   font-style: italic;
   font-size: 14px;
   font-family:Arial, sans-serif;
 }
 
 .margin_left_2 {
-  margin-left: 5%;
+  margin-left: 40px;
   font-size: 14px;
 }
 
