@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: #f9f9f9;
+  font-family: Tahoma, Arial. sans-serif;
+
+}
+
+/* HEADER */
+
+.wrapper {
+  width: 968px;
+  background: #ffffff;
+  padding: 0 46px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+  box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+}
+
+.header {
+  padding-top: 50px;
+  /*margin: 40px;*/
+
+}
+
+.menu {
+    position: relative;
+    overflow: hidden;
+    background: #4e4d4d;
+    margin-top: 40px;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 15px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu a:hover {
+    background: #4a4a4a;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+
+
+/* CONTENT */
+
+.content {
+  /*width: 968px;*/
+  background: #ffffff;
+  padding-top: 40px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidebar {
+    float: left;
+    width: 240px;
+}
+
+.sidebar-menu {
+    border: 1px solid #c8c8c8;
+    
+}
+
+.sidebar-menu a {
+    display: block;
+    padding-left: 20px;
+    line-height: 37px;
+    color: #656363;
+    text-decoration: none;
+    transition: 0,2s all;
+    
+}
+
+.sidebar-menu li {
+    border-top: 1px solid #c8c8c8;
+    list-style: none;    
+}
+
+.sidebar-menu li:first-child {
+    border: none;
+}
+
+.sidebar-menu a:hover {
+    padding-left: 35px;
+    background: #f9f9f9;
+}
+
+.product {
+    float: right;
+    width: 680px;
+}
+
+.product-image {
+    padding: 40px 0;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+}
+
+.product-description {
+    padding: 30px 22px 0 22px;
+    font-size: 14px;
+    color: #2c2c2c;
+    line-height: 21px;
+}
+
+/* FOOTER */
+
+.footer {
+  /*width: 968px;*/
+  background: #ffffff;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-menu {
+  position: relative;
+  overflow: hidden;
+  background: #e1e1e1;
+}
+
+.footer-menu li {
+    float: left;
+    list-style: none;
+    line-height: 40px;
+}
+
+.footer-menu a {
+    display: block;
+    padding: 0 50px;    
+    color: #2c2c22;
+    text-decoration: none;    
+}
+
+.footer-menu .copy {
+    float: right;
+    padding-right: 26px;
+}
+
+
+
+

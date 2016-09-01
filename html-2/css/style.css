@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #eff2f8;
+  font-family: Arial, sans-serif;
+    
+}
+
+.main-container {
+  width: 50%;
+  margin: 0 auto;
+}
+#my_heading {
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+#my_photo {
+  display: block;
+  margin: 0 auto;
+}
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+  font-family:Arial, sans-serif;
+}
+.margin_left_1 {
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.list {
+    font-size: 14px;
+}
+
+#my_caption {
+  font-size: 14px;
+}
+
+.link {
+  color: #2964d5;
+  margin-left: 40px;
+  font-style: italic;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.margin_left_2 {
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+ 
