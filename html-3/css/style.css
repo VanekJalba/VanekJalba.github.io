@@ -102,6 +102,7 @@ body {
 .sidebar-menu a:hover {
     padding-left: 35px;
     background: #f9f9f9;
+    color: #000000;
 }
 
 .product {
