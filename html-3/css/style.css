@@ -152,6 +152,10 @@ body {
     font-size: 13px;
 }
 
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
 .footer-menu .copy {
     float: right;
     padding-right: 26px;
