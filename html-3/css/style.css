@@ -28,12 +28,11 @@ body {
 .menu {
     position: relative;
     overflow: hidden;
-    background-image: -ms-linear-gradient(bottom left, rgba(91,91,91,1) 0%, rgba(75,74,74,1) 100%);
-    background-image: -moz-linear-gradient(bottom left, rgba(91,91,91,1) 0%, rgba(75,74,74,1) 100%);
-    background-image: -o-linear-gradient(bottom left, rgba(91,91,91,1) 0%, rgba(75,74,74,1) 100%);
-    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, rgba(91,91,91,1)), color-stop(100, rgba(75,74,74,1)));
-    background-image: -webkit-linear-gradient(bottom left, rgba(91,91,91,1) 0%, rgba(75,74,74,1) 100%);
-    background-image: linear-gradient(to top right, rgba(91,91,91,1) 0%, rgba(75,74,74,1) 100%);
+    background: rgb(92,92,92);
+    background: -moz-linear-gradient(left,  rgb(92,92,92) 0%, rgb(72,71,71) 100%);
+    background: -webkit-linear-gradient(left,  rgb(92,92,92) 0%,rgb(72,71,71) 100%);
+    background: linear-gradient(to right,  rgb(92,92,92) 0%,rgb(72,71,71) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c5c5c', endColorstr='#484747',GradientType=1 );
     margin-top: 40px;
 }
 
@@ -51,6 +50,7 @@ body {
     font-size: 15px;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
+    text-shadow: 2px 2px 2px rgb(4, 4, 4);
 }
 
 .menu a:hover {
