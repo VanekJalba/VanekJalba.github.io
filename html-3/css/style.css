@@ -32,7 +32,9 @@ body {
     background: -moz-linear-gradient(left,  rgb(68,67,67) 0%, rgb(94,94,94) 100%);
     background: -webkit-linear-gradient(left,  rgb(68,67,67) 0%,rgb(94,94,94) 100%);
     background: linear-gradient(to right,  rgb(68,67,67) 0%,rgb(94,94,94) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444343', endColorstr='#5e5e5e',GradientType=1 );
     margin-top: 40px;
+
 }
 
 .menu li {
@@ -50,6 +52,7 @@ body {
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     text-shadow: 2px 2px 2px rgb(4, 4, 4);
+
 }
 
 .menu a:hover {
@@ -104,7 +107,7 @@ body {
 .sidebar-menu a:hover {
     padding-left: 35px;
     background: #f9f9f9;
-    color: #000000;
+
 }
 
 .product {
@@ -153,11 +156,12 @@ body {
     padding: 0 50px;    
     color: #2c2c22;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 13px;    
 }
 
 .footer-menu a:hover {
     text-decoration: underline;
+       
 }
 
 .footer-menu .copy {
