@@ -28,11 +28,11 @@ body {
 .menu {
     position: relative;
     overflow: hidden;
-    background: rgb(92,92,92);
-    background: -moz-linear-gradient(left,  rgb(92,92,92) 0%, rgb(72,71,71) 100%);
-    background: -webkit-linear-gradient(left,  rgb(92,92,92) 0%,rgb(72,71,71) 100%);
-    background: linear-gradient(to right,  rgb(92,92,92) 0%,rgb(72,71,71) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c5c5c', endColorstr='#484747',GradientType=1 );
+    background: rgb(68,67,67);
+    background: -moz-linear-gradient(left,  rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+    background: -webkit-linear-gradient(left,  rgb(68,67,67) 0%,rgb(94,94,94) 100%);
+    background: linear-gradient(to right,  rgb(68,67,67) 0%,rgb(94,94,94) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444343', endColorstr='#5e5e5e',GradientType=1 );
     margin-top: 40px;
 }
 
