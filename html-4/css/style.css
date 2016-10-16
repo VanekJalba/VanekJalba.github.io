@@ -97,6 +97,7 @@ body {
   display: block;
   float: left;
   height: 30px;
+  width: 100%;
 }
 
 .menu > li{
@@ -177,6 +178,7 @@ body {
 .rightColumn p{
   padding: 0 23px 0 16px;
     font-size: 14px;
+<<<<<<< e8fd9bff5276a0a5ae2e1125231f08b3b3547aff
 }
 
 .leftColumn p {
@@ -184,6 +186,15 @@ body {
   font-size: 14px;
 }
 
+=======
+}
+
+.leftColumn p {
+  padding: 0 23px 0 16px;
+  font-size: 14px;
+}
+
+>>>>>>> all changes
 .centerColumn{
   width: 58%;
   float: left;
