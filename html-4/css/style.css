@@ -90,7 +90,9 @@ body {
 }
 
 .nav{
-  background-color: #000;
+  border-top: 1px solid #cacbcb;
+  border-bottom: 1px solid #000;
+  background-color: #353535;
 }
 
 .menu{
@@ -177,17 +179,14 @@ body {
 
 .rightColumn p{
   padding: 0 23px 0 16px;
-    font-size: 14px;
+  font-size: 14px;
+  /*overflow-wrap: break-word;*/
 }
 
 .leftColumn p {
   padding: 0 23px 0 16px;
   font-size: 14px;
-}
-
-.leftColumn p {
-  padding: 0 23px 0 16px;
-  font-size: 14px;
+  /*overflow-wrap: break-word;*/
 }
 
 .centerColumn{
