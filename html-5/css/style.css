@@ -68,6 +68,13 @@ header {
     line-height: 35px;
 }
 
+.active {
+   border-right: 1px solid #489bd5;
+   border-bottom: 1px solid #489bd5;
+   border-left: 1px solid #489bd5;
+   background: linear-gradient(to bottom, rgba(81, 177, 220, 1) 0%, rgba(53, 132, 201, 1) 68%, rgba(46, 122, 196, 1) 91%, rgba(46, 122, 196, 1) 100%);
+}
+
 .login a {
     color: #fff;
 }
