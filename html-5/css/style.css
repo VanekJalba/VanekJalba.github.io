@@ -3,14 +3,6 @@
     font-family: Tahoma, sans-serif;
 }
 
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
-         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     margin: 0;
     font-family: 'Helvetica Neue';
@@ -220,3 +212,10 @@ span {
     font-size: 11px;
 }
 
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
