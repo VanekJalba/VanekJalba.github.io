@@ -20,8 +20,9 @@ body {
 
   clear: both;
   position: relative;
-  text-align: center;
-  display: block;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 header {
   font-size: 14px;
