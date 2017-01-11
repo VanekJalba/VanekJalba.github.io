@@ -17,11 +17,11 @@ body {
   background-repeat: no-repeat;
 }
 .wrapper {
-
   clear: both;
   position: relative;
-  text-align: center;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 header {
   font-size: 14px;
