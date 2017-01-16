@@ -12,19 +12,23 @@ html, body, .wrapper {
 body {
   font-family: 'Helvetica Neue';
   background-image: url(../img/back.jpg);
-  background-position: center;
-  background-position: top;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.wrapper {
 
+.wrapper {
   clear: both;
   position: relative;
   justify-content: center;
   display: flex;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
-header {
+
+.header {
   font-size: 14px;
   color: #60b5ed;
   text-align: right;
