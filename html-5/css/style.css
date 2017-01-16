@@ -12,23 +12,19 @@ html, body, .wrapper {
 body {
   font-family: 'Helvetica Neue';
   background-image: url(../img/back.jpg);
-  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-
 .wrapper {
   clear: both;
   position: relative;
-  justify-content: center;
-  display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.header {
+header {
   font-size: 14px;
   color: #60b5ed;
   text-align: right;
@@ -255,3 +251,5 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
   -moz-box-shadow: 0px 0px 15px 2px rgba(250, 250, 250, 0.77);
   box-shadow: 0px 0px 15px 2px rgba(250, 250, 250, 0.77);
 }
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
