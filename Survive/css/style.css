@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* widh*/
+
+}
+/*
+.header {
+    width: 100%;
+    padding-top: 21px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__inner--icons {
+    width: 10px;
+}
+.nav {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    font-family: Open Sans;
+    font-weight: bold;
+    color: #e83838;
+    text-decoration: none;
+}
+
+*/
+
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(/img/bg_gallery.png) center no-repeat;
+    background-size: cover;
+    
+}
+
+.gallery__title {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Bebas Nenue;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+.gallery__sub-title {
+    padding-top: 256px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Bebas Nenue;
+}
